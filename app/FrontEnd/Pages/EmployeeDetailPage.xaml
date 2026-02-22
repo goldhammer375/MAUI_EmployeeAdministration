@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+	x:Class="FrontEnd.Pages.EmployeeDetailPage"
+	xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:controls="clr-namespace:FrontEnd.Resources.CustomControls"
+	Title="EmployeeDetailPage">
+	<VerticalStackLayout Padding="250,0">
+		<Border
+			Margin="50"
+			HorizontalOptions="Center"
+			MinimumHeightRequest="400"
+			MinimumWidthRequest="400"
+			StrokeShape="RoundRectangle 20"
+			StrokeThickness="0">
+			<Image
+				Aspect="Center"
+				HorizontalOptions="Center"
+				Source="{Binding Employee.ImageUrl}"
+				VerticalOptions="Center" />
+		</Border>
+
+		<Grid Margin="0,15" ColumnDefinitions="Auto, *">
+			<Label Padding="10" Text="Nombre:" />
+			<Entry
+				Grid.Column="1"
+				Placeholder="Nombre completo"
+				Text="{Binding Employee.Name}" />
+		</Grid>
+
+		<Grid Margin="0,15" ColumnDefinitions="Auto, *">
+			<Label Padding="10" Text="Puesto:" />
+			<Entry
+				Grid.Column="1"
+				Placeholder="IT, Finanzas, ..."
+				Text="{Binding Employee.Position}" />
+		</Grid>
+
+		<Grid Margin="0,15" ColumnDefinitions="Auto, *">
+			<Label Padding="10" Text="URL Imagen:" />
+			<Entry
+				Grid.Column="1"
+				Placeholder="URL Imagen completa"
+				Text="{Binding Employee.ImageUrl}" />
+		</Grid>
+
+		<Grid ColumnDefinitions="*, *, *">
+			<VerticalStackLayout Padding="15" Spacing="5">
+				<Picker
+					Title="Seleccione Departamento"
+					ItemDisplayBinding="{Binding Name}"
+					ItemsSource="{Binding Departments}"
+					SelectedItem="{Binding Employee.Department, Mode=TwoWay}" />
+			</VerticalStackLayout>
+
+			<VerticalStackLayout
+				Grid.Column="1"
+				Padding="15"
+				Spacing="5">
+				<Picker
+					Title="Seleccione Oficina"
+					ItemDisplayBinding="{Binding Address}"
+					ItemsSource="{Binding Offices}"
+					SelectedItem="{Binding Employee.Office, Mode=TwoWay}" />
+			</VerticalStackLayout>
+
+			<VerticalStackLayout
+				Grid.Column="2"
+				Padding="15"
+				Spacing="5">
+				<Picker
+					Title="Seleccione Jefe"
+					ItemDisplayBinding="{Binding Name}"
+					ItemsSource="{Binding Employees}"
+					SelectedItem="{Binding Employee.Boss, Mode=TwoWay}" />
+			</VerticalStackLayout>
+		</Grid>
+
+		<Grid ColumnDefinitions="*, *">
+			<Button
+				Margin="20"
+				Command="{Binding SaveCommand}"
+				Text="Guardar Cambios" />
+			<Button
+				Grid.Column="1"
+				Margin="20"
+				Command="{Binding DeleteCommand}"
+				Text="Borrar" />
+		</Grid>
+
+	</VerticalStackLayout>
+</ContentPage>

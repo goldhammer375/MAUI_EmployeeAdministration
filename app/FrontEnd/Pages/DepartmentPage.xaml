@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+	x:Class="FrontEnd.Pages.DepartmentPage"
+	xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:controls="clr-namespace:FrontEnd.Resources.CustomControls"
+	Title="DepartmentPage">
+	<Grid RowDefinitions="Auto, *">
+		<HorizontalStackLayout Padding="10" Spacing="10">
+			<Button Command="{Binding CreateDepartmentCommand}" Text="Nuevo departamento" />
+		</HorizontalStackLayout>
+		<CollectionView
+		Grid.Row="1"
+			ItemsSource="{Binding Departments}"
+			SelectedItem="{Binding SelectedDepartment}"
+			SelectionChangedCommand="{Binding GoToDetailCommand}"
+			SelectionMode="Single">
+			<CollectionView.ItemTemplate>
+				<DataTemplate>
+					<controls:DepartmentCard Margin="5" BindingContext="{Binding .}" />
+				</DataTemplate>
+			</CollectionView.ItemTemplate>
+			<CollectionView.ItemsLayout>
+				<GridItemsLayout x:Name="DepartmentCollection" Orientation="Vertical" />
+			</CollectionView.ItemsLayout>
+		</CollectionView>
+	</Grid>
+</ContentPage>

@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MAUI\\FrontEnd\\app\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{90CF18BE-437A-4804-9E85-213B3EBFA1C5}|FrontEnd\\FrontEnd.csproj|c:\\maui\\frontend\\app\\frontend\\resources\\customcontrols\\officecard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{90CF18BE-437A-4804-9E85-213B3EBFA1C5}|FrontEnd\\FrontEnd.csproj|solutionrelative:frontend\\resources\\customcontrols\\officecard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90CF18BE-437A-4804-9E85-213B3EBFA1C5}|FrontEnd\\FrontEnd.csproj|c:\\maui\\frontend\\app\\frontend\\resources\\customcontrols\\employeecard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{90CF18BE-437A-4804-9E85-213B3EBFA1C5}|FrontEnd\\FrontEnd.csproj|solutionrelative:frontend\\resources\\customcontrols\\employeecard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90CF18BE-437A-4804-9E85-213B3EBFA1C5}|FrontEnd\\FrontEnd.csproj|c:\\maui\\frontend\\app\\frontend\\resources\\customcontrols\\departmentcard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{90CF18BE-437A-4804-9E85-213B3EBFA1C5}|FrontEnd\\FrontEnd.csproj|solutionrelative:frontend\\resources\\customcontrols\\departmentcard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90CF18BE-437A-4804-9E85-213B3EBFA1C5}|FrontEnd\\FrontEnd.csproj|c:\\maui\\frontend\\app\\frontend\\pagemodels\\departmentdetailpagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90CF18BE-437A-4804-9E85-213B3EBFA1C5}|FrontEnd\\FrontEnd.csproj|solutionrelative:frontend\\pagemodels\\departmentdetailpagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90CF18BE-437A-4804-9E85-213B3EBFA1C5}|FrontEnd\\FrontEnd.csproj|c:\\maui\\frontend\\app\\frontend\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90CF18BE-437A-4804-9E85-213B3EBFA1C5}|FrontEnd\\FrontEnd.csproj|solutionrelative:frontend\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90CF18BE-437A-4804-9E85-213B3EBFA1C5}|FrontEnd\\FrontEnd.csproj|c:\\maui\\frontend\\app\\frontend\\resources\\customcontrols\\officecard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90CF18BE-437A-4804-9E85-213B3EBFA1C5}|FrontEnd\\FrontEnd.csproj|solutionrelative:frontend\\resources\\customcontrols\\officecard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90CF18BE-437A-4804-9E85-213B3EBFA1C5}|FrontEnd\\FrontEnd.csproj|c:\\maui\\frontend\\app\\frontend\\schemas\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90CF18BE-437A-4804-9E85-213B3EBFA1C5}|FrontEnd\\FrontEnd.csproj|solutionrelative:frontend\\schemas\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 320,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DepartmentDetailPageModel.cs",
+              "DocumentMoniker": "C:\\MAUI\\FrontEnd\\app\\FrontEnd\\PageModels\\DepartmentDetailPageModel.cs",
+              "RelativeDocumentMoniker": "FrontEnd\\PageModels\\DepartmentDetailPageModel.cs",
+              "ToolTip": "C:\\MAUI\\FrontEnd\\app\\FrontEnd\\PageModels\\DepartmentDetailPageModel.cs",
+              "RelativeToolTip": "FrontEnd\\PageModels\\DepartmentDetailPageModel.cs",
+              "ViewState": "AgIAAAIAAABAZWZmZmYEwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T11:52:44.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OfficeCard.xaml.cs",
+              "DocumentMoniker": "C:\\MAUI\\FrontEnd\\app\\FrontEnd\\Resources\\CustomControls\\OfficeCard.xaml.cs",
+              "RelativeDocumentMoniker": "FrontEnd\\Resources\\CustomControls\\OfficeCard.xaml.cs",
+              "ToolTip": "C:\\MAUI\\FrontEnd\\app\\FrontEnd\\Resources\\CustomControls\\OfficeCard.xaml.cs",
+              "RelativeToolTip": "FrontEnd\\Resources\\CustomControls\\OfficeCard.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T08:39:39.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OfficeCard.xaml",
+              "DocumentMoniker": "C:\\MAUI\\FrontEnd\\app\\FrontEnd\\Resources\\CustomControls\\OfficeCard.xaml",
+              "RelativeDocumentMoniker": "FrontEnd\\Resources\\CustomControls\\OfficeCard.xaml",
+              "ToolTip": "C:\\MAUI\\FrontEnd\\app\\FrontEnd\\Resources\\CustomControls\\OfficeCard.xaml",
+              "RelativeToolTip": "FrontEnd\\Resources\\CustomControls\\OfficeCard.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-20T08:38:59.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeCard.xaml",
+              "DocumentMoniker": "C:\\MAUI\\FrontEnd\\app\\FrontEnd\\Resources\\CustomControls\\EmployeeCard.xaml",
+              "RelativeDocumentMoniker": "FrontEnd\\Resources\\CustomControls\\EmployeeCard.xaml",
+              "ToolTip": "C:\\MAUI\\FrontEnd\\app\\FrontEnd\\Resources\\CustomControls\\EmployeeCard.xaml",
+              "RelativeToolTip": "FrontEnd\\Resources\\CustomControls\\EmployeeCard.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-20T08:38:57.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DepartmentCard.xaml",
+              "DocumentMoniker": "C:\\MAUI\\FrontEnd\\app\\FrontEnd\\Resources\\CustomControls\\DepartmentCard.xaml",
+              "RelativeDocumentMoniker": "FrontEnd\\Resources\\CustomControls\\DepartmentCard.xaml",
+              "ToolTip": "C:\\MAUI\\FrontEnd\\app\\FrontEnd\\Resources\\CustomControls\\DepartmentCard.xaml",
+              "RelativeToolTip": "FrontEnd\\Resources\\CustomControls\\DepartmentCard.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-20T08:36:55.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\MAUI\\FrontEnd\\app\\FrontEnd\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "FrontEnd\\Services\\EmployeeService.cs",
+              "ToolTip": "C:\\MAUI\\FrontEnd\\app\\FrontEnd\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "FrontEnd\\Services\\EmployeeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T08:28:45.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\MAUI\\FrontEnd\\app\\FrontEnd\\Schemas\\Department.cs",
+              "RelativeDocumentMoniker": "FrontEnd\\Schemas\\Department.cs",
+              "ToolTip": "C:\\MAUI\\FrontEnd\\app\\FrontEnd\\Schemas\\Department.cs",
+              "RelativeToolTip": "FrontEnd\\Schemas\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T08:27:37.098Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

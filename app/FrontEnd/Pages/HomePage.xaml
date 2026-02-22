@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+	x:Class="FrontEnd.Pages.HomePage"
+	xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:behaviors="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+	xmlns:controls="clr-namespace:FrontEnd.Resources.CustomControls">
+
+	<Grid RowDefinitions="Auto, *">
+		<HorizontalStackLayout Padding="10" Spacing="10">
+			<Button Command="{Binding CreateEmployeeCommand}" Text="Nuevo empleado" />
+		</HorizontalStackLayout>
+
+		<CollectionView
+			Grid.Row="1"
+			ItemsSource="{Binding Employees}"
+			SelectedItem="{Binding SelectedEmployee}"
+			SelectionChangedCommand="{Binding GoToDetailCommand}"
+			SelectionMode="Single">
+			<CollectionView.ItemTemplate>
+				<DataTemplate>
+					<controls:EmployeeCard Margin="5" BindingContext="{Binding .}" />
+				</DataTemplate>
+			</CollectionView.ItemTemplate>
+			<CollectionView.ItemsLayout>
+				<GridItemsLayout x:Name="EmployeeCollection" Orientation="Vertical" />
+			</CollectionView.ItemsLayout>
+		</CollectionView>
+	</Grid>
+
+</ContentPage>

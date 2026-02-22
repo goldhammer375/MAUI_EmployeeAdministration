@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+	x:Class="FrontEnd.Pages.OfficeDetailPage"
+	xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:controls="clr-namespace:FrontEnd.Resources.CustomControls"
+	Title="OfficeDetailPage">
+	<VerticalStackLayout Padding="250,0">
+
+		<Grid Margin="0,15" ColumnDefinitions="Auto, *">
+			<Label Padding="10" Text="Dirección:" />
+			<Entry
+				Grid.Column="1"
+				Placeholder="Dirección completa"
+				Text="{Binding Office.Address}" />
+		</Grid>
+
+		<Grid Margin="0,15" ColumnDefinitions="Auto, *">
+			<Label Padding="10" Text="Ciudad:" />
+			<Entry
+				Grid.Column="1"
+				Placeholder="Ciudad"
+				Text="{Binding Office.City}" />
+		</Grid>
+
+		<Grid Margin="0,15" ColumnDefinitions="Auto, *">
+			<Label Padding="10" Text="País:" />
+			<Entry
+				Grid.Column="1"
+				Placeholder="País"
+				Text="{Binding Office.Country}" />
+		</Grid>
+
+		<Grid Margin="0,15" ColumnDefinitions="Auto, *">
+			<Label Padding="10" Text="Teléfono:" />
+			<Entry
+				Grid.Column="1"
+				Placeholder="+34 000-000-000"
+				Text="{Binding Office.Phone}" />
+		</Grid>
+
+		<Grid ColumnDefinitions="*, *">
+			<Button
+				Margin="20"
+				Command="{Binding SaveCommand}"
+				Text="Guardar Cambios" />
+			<Button
+				Grid.Column="1"
+				Margin="20"
+				Command="{Binding DeleteCommand}"
+				Text="Borrar" />
+		</Grid>
+
+	</VerticalStackLayout>
+</ContentPage>

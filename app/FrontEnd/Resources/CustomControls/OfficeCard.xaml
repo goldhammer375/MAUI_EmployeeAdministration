@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView
+	x:Class="FrontEnd.Resources.CustomControls.OfficeCard"
+	xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+	<Border
+		Margin="10"
+		Padding="15"
+		StrokeShape="RoundRectangle 12"
+		WidthRequest="650">
+		<Grid ColumnDefinitions="*, *" RowDefinitions="*, *">
+			<HorizontalStackLayout>
+				<Label
+					Margin="5"
+					FontSize="Small"
+					Text="Dirección: "
+					VerticalTextAlignment="Center" />
+				<Label
+					FontSize="Small"
+					Text="{Binding Address}"
+					VerticalTextAlignment="Center" />
+			</HorizontalStackLayout>
+			<HorizontalStackLayout Grid.Column="1">
+				<Label
+					Margin="5"
+					FontSize="Small"
+					Text="Teléfono: "
+					VerticalTextAlignment="Center" />
+				<Label
+					FontSize="Small"
+					Text="{Binding Phone}"
+					VerticalTextAlignment="Center" />
+			</HorizontalStackLayout>
+			<HorizontalStackLayout Grid.Row="1">
+				<Label
+					Margin="5"
+					FontSize="Small"
+					Text="Ciudad: "
+					VerticalTextAlignment="Center" />
+				<Label
+					FontSize="Small"
+					Text="{Binding City}"
+					VerticalTextAlignment="Center" />
+			</HorizontalStackLayout>
+			<HorizontalStackLayout Grid.Row="1" Grid.Column="1">
+				<Label
+					Margin="5"
+					FontSize="Small"
+					Text="País: "
+					VerticalTextAlignment="Center" />
+				<Label
+					FontSize="Small"
+					Text="{Binding Country}"
+					VerticalTextAlignment="Center" />
+			</HorizontalStackLayout>
+
+		</Grid>
+	</Border>
+</ContentView>
